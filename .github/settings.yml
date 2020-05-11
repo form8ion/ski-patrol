@@ -1,0 +1,6 @@
+_extends: .github
+repository:
+  name: ski-patrol
+  description: a doctor utility for the form8ion tool suite
+  homepage: 'https://npm.im/@form8ion/ski-patrol'
+  private: false
