@@ -1,3 +1,5 @@
-// remark-usage-ignore-next
-/* eslint-disable-next-line no-unused-vars */
-import skiPatrol from './lib/index.cjs';
+import {patrol} from './lib/index.cjs';
+
+(async () => {
+  await patrol({projectRoot: process.cwd()});
+})();

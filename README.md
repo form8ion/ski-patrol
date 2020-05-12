@@ -36,7 +36,11 @@ $ npm install @form8ion/ski-patrol --save-dev
 ### Example
 
 ```javascript
-import skiPatrol from '@form8ion/ski-patrol';
+import {assess} from '@form8ion/ski-patrol';
+
+(async () => {
+  await assess();
+})();
 ```
 
 ## Contributing
