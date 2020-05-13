@@ -1,1 +1,1 @@
-export {default as assess} from './ski-patrol';
+export {default as patrol} from './ski-patrol';
