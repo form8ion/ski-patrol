@@ -36,10 +36,10 @@ $ npm install @form8ion/ski-patrol --save-dev
 ### Example
 
 ```javascript
-import {assess} from '@form8ion/ski-patrol';
+import {patrol} from '@form8ion/ski-patrol';
 
 (async () => {
-  await assess();
+  await patrol();
 })();
 ```
 

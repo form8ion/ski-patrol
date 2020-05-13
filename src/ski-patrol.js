@@ -1,5 +1,5 @@
 import husky from './husky';
 
-export default async function ({projectRoot}) {
-  await husky(projectRoot);
+export default async function () {
+  await husky(process.cwd());
 }

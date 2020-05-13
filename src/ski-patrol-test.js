@@ -10,6 +10,7 @@ suite('ski-patrol', () => {
   setup(() => {
     sandbox = sinon.createSandbox();
 
+    sandbox.stub(process, 'cwd');
     sandbox.stub(husky, 'default');
   });
 
@@ -17,6 +18,7 @@ suite('ski-patrol', () => {
 
   test('that the project is checked for issues', async () => {
     const projectRoot = any.string();
+    process.cwd.returns(projectRoot);
 
     await patrol({projectRoot});
 
