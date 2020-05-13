@@ -1,5 +1,5 @@
 import husky from './husky';
 
-export async function patrol({projectRoot}) {
+export default async function ({projectRoot}) {
   await husky(projectRoot);
 }

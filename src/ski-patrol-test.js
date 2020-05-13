@@ -2,7 +2,7 @@ import {assert} from 'chai';
 import sinon from 'sinon';
 import any from '@travi/any';
 import * as husky from './husky';
-import {patrol} from './ski-patrol';
+import patrol from './ski-patrol';
 
 suite('ski-patrol', () => {
   let sandbox;
